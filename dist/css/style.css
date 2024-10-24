@@ -242,7 +242,8 @@ body::after {
   font-size: 1rem;
   text-align: center;
   color: #ff7428;
-  transition: all .3s ease 0s
+  transition: all .3s ease 0s;
+  margin-top: .75rem
 }
 .popup .form button[type=submit]::before,
 .popup .form input[type=submit]::before {
@@ -732,7 +733,8 @@ body::after {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  max-width: 25.3125rem
+  max-width: 25.3125rem;
+  pointer-events: none
 }
 .expert__content picture img,
 .expert__content picture source {
@@ -743,7 +745,8 @@ body::after {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  max-width: 25.3125rem
+  max-width: 25.3125rem;
+  pointer-events: none
 }
 .cases {
   margin-bottom: 7.1875rem
@@ -978,7 +981,8 @@ body::after {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  max-width: 29.375rem
+  max-width: 29.375rem;
+  pointer-events: none
 }
 .call__box picture img,
 .call__box picture source {
@@ -989,7 +993,8 @@ body::after {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  max-width: 29.375rem
+  max-width: 29.375rem;
+  pointer-events: none
 }
 .call__block {
   display: flex;
@@ -1391,6 +1396,13 @@ body::after {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg)
   }
+  .popup__content {
+    padding: 4.375rem 1.875rem
+  }
+  .popup__text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.875rem
+  }
   .header__logo {
     width: 15.625rem;
     height: 2.375rem
@@ -1434,6 +1446,9 @@ body::after {
   .cases__container {
     padding-bottom: 2.1875rem
   }
+  .cases__top h3 {
+    font-size: 1.5rem
+  }
   .cases__top {
     margin-bottom: 1.25rem
   }
@@ -1449,6 +1464,9 @@ body::after {
   }
   .cases {
     margin-bottom: 1.875rem
+  }
+  .about__top h3 {
+    font-size: 1.5rem
   }
   .about__top {
     margin-bottom: 1.25rem
@@ -1473,7 +1491,7 @@ body::after {
     margin-bottom: 1.875rem
   }
   .call__box h4 {
-    font-size: 2.25rem
+    font-size: 1.875rem
   }
   .call__box>img,
   .call__box>picture {
