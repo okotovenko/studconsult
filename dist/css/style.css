@@ -461,14 +461,17 @@ body::after {
 .hero {
   margin-bottom: 6.25rem
 }
+.hero__box {
+  width: 100%;
+  padding: 0 .9375rem
+}
 .hero__container {
   background-color: #1e1e1c;
   border-radius: 2.5rem;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  gap: 1.25rem;
-  padding-top: 6.0625rem
+  gap: 1.25rem
 }
 .hero__container h1 {
   font-weight: 800;
@@ -503,8 +506,7 @@ body::after {
   font-size: 1.25rem;
   line-height: 110%;
   text-align: left;
-  color: #fff;
-  margin-bottom: 3.125rem
+  color: #fff
 }
 .hero__text p:not(:last-child) {
   margin-bottom: 1.5625rem
@@ -600,7 +602,6 @@ body::after {
 }
 .get__center h3 {
   font-weight: 600;
-  font-size: 1.875rem;
   display: flex;
   align-items: center;
   gap: .8125rem;
@@ -639,7 +640,6 @@ body::after {
 }
 .get__right h3 {
   font-weight: 600;
-  font-size: 1.875rem;
   display: flex;
   align-items: center;
   gap: .8125rem;
@@ -687,7 +687,6 @@ body::after {
 }
 .expert__content h3 {
   font-weight: 600;
-  font-size: 1.875rem;
   display: flex;
   align-items: center;
   gap: .8125rem;
@@ -754,8 +753,7 @@ body::after {
 .cases__container {
   border-radius: 1.875rem;
   background-color: #fcfcff;
-  padding-top: 2.1875rem;
-  padding-bottom: 4.0625rem
+  padding-top: 2.1875rem
 }
 .cases__top {
   display: flex;
@@ -764,7 +762,6 @@ body::after {
 }
 .cases__top h3 {
   font-weight: 800;
-  font-size: 1.875rem;
   line-height: 142%;
   color: #262626
 }
@@ -778,7 +775,6 @@ body::after {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  gap: 8.75rem;
   justify-content: center
 }
 .cases__box {
@@ -897,38 +893,27 @@ body::after {
   background-color: #fe5a01;
   opacity: 1
 }
-.about {
-  margin-bottom: 10.9375rem
-}
 .about__top {
   display: flex;
   align-items: center;
-  gap: 1.5625rem;
-  margin-bottom: 3.125rem
+  gap: 1.5625rem
 }
 .about__top h3 {
   font-weight: 800;
-  font-size: 1.875rem;
   line-height: 142%;
   color: #262626
 }
 .about__items {
   display: flex;
   flex-wrap: wrap;
-  -webkit-column-gap: 3.75rem;
-  -moz-column-gap: 3.75rem;
-  column-gap: 3.75rem;
-  row-gap: 3.125rem;
   justify-content: center
 }
 .about__item {
   display: flex;
-  gap: 1.875rem;
   align-items: center
 }
 .about__item span {
   font-weight: 300;
-  font-size: 6rem;
   line-height: 139%;
   text-align: center;
   color: #fe5a01
@@ -944,13 +929,9 @@ body::after {
 }
 .about__number {
   font-weight: 500;
-  font-size: 6rem;
   line-height: 139%;
   text-align: center;
   color: #fe5a01
-}
-.call {
-  margin-bottom: 5rem
 }
 .call__container {
   display: flex;
@@ -961,12 +942,10 @@ body::after {
   max-width: 66.875rem;
   background-color: #262626;
   border-radius: 1.875rem;
-  position: relative;
-  padding: 6.875rem 6.5625rem
+  position: relative
 }
 .call__box h4 {
   font-weight: 600;
-  font-size: 3.125rem;
   text-align: center;
   color: #fff;
   line-height: 122%;
@@ -999,21 +978,18 @@ body::after {
 .call__block {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 3.125rem
+  align-items: center
 }
 .call ._icon-tg {
   display: flex;
   align-items: center;
   gap: .5rem;
   font-weight: 600;
-  font-size: 1rem;
   text-align: center;
   color: #fff;
   transition: all .3s ease 0s
 }
 .call ._icon-tg::before {
-  font-size: 1.25rem;
   color: #fff;
   transition: all .3s ease 0s
 }
@@ -1239,6 +1215,101 @@ body::after {
   .popup__close {
     top: 2.5rem
   }
+  .hero__container {
+    padding-top: 6.0625rem
+  }
+  .hero__container h1 {
+    font-size: 3.125rem
+  }
+  .hero__container h1 {
+    margin-bottom: 3.125rem
+  }
+  .hero__left {
+    padding-left: 5.3125rem
+  }
+  .hero__text {
+    margin-bottom: 3.125rem
+  }
+  .get__left h2 {
+    font-size: 3.125rem
+  }
+  .get__left h2 {
+    margin-bottom: 2.1875rem
+  }
+  .get__center h3 {
+    font-size: 1.875rem
+  }
+  .get__right h3 {
+    font-size: 1.875rem
+  }
+  .expert__content h3 {
+    font-size: 1.875rem
+  }
+  .cases__container {
+    padding-bottom: 4.0625rem
+  }
+  .cases__top h3 {
+    font-size: 1.875rem
+  }
+  .cases__slider {
+    margin-bottom: 5rem
+  }
+  .cases__content {
+    gap: 8.75rem
+  }
+  .about {
+    margin-bottom: 10.9375rem
+  }
+  .about__top {
+    margin-bottom: 3.125rem
+  }
+  .about__top h3 {
+    font-size: 1.875rem
+  }
+  .about__items {
+    -webkit-column-gap: 3.75rem;
+    -moz-column-gap: 3.75rem;
+    column-gap: 3.75rem
+  }
+  .about__items {
+    row-gap: 3.125rem
+  }
+  .about__item {
+    gap: 1.875rem
+  }
+  .about__item span {
+    font-size: 6rem
+  }
+  .about__number {
+    font-size: 5.625rem
+  }
+  .call {
+    margin-bottom: 5rem
+  }
+  .call__box {
+    padding-top: 6.875rem
+  }
+  .call__box {
+    padding-bottom: 6.875rem
+  }
+  .call__box {
+    padding-left: 6.5625rem
+  }
+  .call__box {
+    padding-right: 6.5625rem
+  }
+  .call__box h4 {
+    font-size: 3.125rem
+  }
+  .call__block {
+    gap: 3.125rem
+  }
+  .call ._icon-tg {
+    font-size: 1rem
+  }
+  .call ._icon-tg::before {
+    font-size: 1.25rem
+  }
   .success__container h2 {
     font-size: 1.875rem
   }
@@ -1264,6 +1335,101 @@ body::after {
   }
   .popup__close {
     top: 1.25rem
+  }
+  .hero__container {
+    padding-top: 3.125rem
+  }
+  .hero__container h1 {
+    font-size: 2.5rem
+  }
+  .hero__container h1 {
+    margin-bottom: 1.875rem
+  }
+  .hero__left {
+    padding-left: .0000000625rem
+  }
+  .hero__text {
+    margin-bottom: 1.875rem
+  }
+  .get__left h2 {
+    font-size: 2.5rem
+  }
+  .get__left h2 {
+    margin-bottom: 1.25rem
+  }
+  .get__center h3 {
+    font-size: 1.25rem
+  }
+  .get__right h3 {
+    font-size: 1.25rem
+  }
+  .expert__content h3 {
+    font-size: 1.25rem
+  }
+  .cases__container {
+    padding-bottom: 2.1875rem
+  }
+  .cases__top h3 {
+    font-size: 1.25rem
+  }
+  .cases__slider {
+    margin-bottom: 2.5rem
+  }
+  .cases__content {
+    gap: 1.875rem
+  }
+  .about {
+    margin-bottom: 1.875rem
+  }
+  .about__top {
+    margin-bottom: 1.25rem
+  }
+  .about__top h3 {
+    font-size: 1.25rem
+  }
+  .about__items {
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem
+  }
+  .about__items {
+    row-gap: 1.25rem
+  }
+  .about__item {
+    gap: .9375rem
+  }
+  .about__item span {
+    font-size: 2.25rem
+  }
+  .about__number {
+    font-size: 2.25rem
+  }
+  .call {
+    margin-bottom: 1.875rem
+  }
+  .call__box {
+    padding-top: 2.5rem
+  }
+  .call__box {
+    padding-bottom: 2.5rem
+  }
+  .call__box {
+    padding-left: 1.25rem
+  }
+  .call__box {
+    padding-right: 1.25rem
+  }
+  .call__box h4 {
+    font-size: 1.5rem
+  }
+  .call__block {
+    gap: 1.25rem
+  }
+  .call ._icon-tg {
+    font-size: .75rem
+  }
+  .call ._icon-tg::before {
+    font-size: .875rem
   }
   .success__container h2 {
     font-size: 1.75rem
@@ -1291,21 +1457,8 @@ body::after {
   .header__tg {
     margin-right: 0
   }
-  .hero__container {
-    padding-top: 3.125rem
-  }
-  .hero__container h1 {
-    font-size: 2.875rem
-  }
-  .hero__left {
-    padding-left: 1.875rem
-  }
   .get__container {
     grid-template-columns: auto
-  }
-  .get__left h2 {
-    font-size: 2.875rem;
-    margin-bottom: 1.25rem
   }
   .get__left {
     padding-left: 1.875rem
@@ -1317,15 +1470,6 @@ body::after {
     max-width: 100%
   }
   .cases {
-    margin-bottom: 3.75rem
-  }
-  .about__item span {
-    font-size: 3.75rem
-  }
-  .about__number {
-    font-size: 3.75rem
-  }
-  .about {
     margin-bottom: 3.75rem
   }
 }
@@ -1410,15 +1554,8 @@ body::after {
   .footer {
     padding: 1.875rem 0
   }
-  .hero__container h1 {
-    margin-bottom: 1.875rem
-  }
   .hero__left {
-    flex: 0 1 100%;
-    padding-left: 0
-  }
-  .hero__text {
-    margin-bottom: 1.875rem
+    flex: 0 1 100%
   }
   .hero__text p:not(:last-child) {
     margin-bottom: .9375rem
@@ -1443,20 +1580,8 @@ body::after {
   .expert {
     margin-bottom: 1.875rem
   }
-  .cases__container {
-    padding-bottom: 2.1875rem
-  }
-  .cases__top h3 {
-    font-size: 1.5rem
-  }
   .cases__top {
     margin-bottom: 1.25rem
-  }
-  .cases__slider {
-    margin-bottom: 2.5rem
-  }
-  .cases__content {
-    gap: 1.875rem
   }
   .cases .swiper-button-next,
   .cases .swiper-button-prev {
@@ -1465,47 +1590,21 @@ body::after {
   .cases {
     margin-bottom: 1.875rem
   }
-  .about__top h3 {
-    font-size: 1.5rem
-  }
-  .about__top {
-    margin-bottom: 1.25rem
-  }
   .about__items {
-    row-gap: 1.25rem;
     justify-content: start
-  }
-  .about__item span {
-    font-size: 3rem
   }
   .about__item p {
     max-width: 100%
   }
-  .about__item {
-    gap: .9375rem
-  }
-  .about__number {
-    font-size: 3rem
-  }
-  .about {
-    margin-bottom: 1.875rem
-  }
-  .call__box h4 {
-    font-size: 1.875rem
-  }
   .call__box>img,
   .call__box>picture {
-    max-width: 100%
+    max-width: 100%;
+    width: auto
   }
   .call__box picture img,
   .call__box picture source {
-    max-width: 100%
-  }
-  .call__box {
-    padding: 2.5rem 1.25rem
-  }
-  .call {
-    margin-bottom: 1.875rem
+    max-width: 100%;
+    width: auto
   }
   .success__logo {
     width: 15.625rem;
@@ -1522,8 +1621,7 @@ body::after {
     display: none
   }
   .call__block {
-    flex-direction: column;
-    gap: 1.25rem
+    flex-direction: column
   }
 }
 @media (min-width:20em)and (max-width:95.625em) {
@@ -1532,6 +1630,101 @@ body::after {
   }
   .popup__close {
     top: clamp(1.25rem ,.9194214876rem + 1.652892562vw ,2.5rem)
+  }
+  .hero__container {
+    padding-top: clamp(3.125rem ,2.3481404959rem + 3.8842975207vw ,6.0625rem)
+  }
+  .hero__container h1 {
+    font-size: clamp(2.5rem ,2.3347107438rem + .826446281vw ,3.125rem)
+  }
+  .hero__container h1 {
+    margin-bottom: clamp(1.875rem ,1.5444214876rem + 1.652892562vw ,3.125rem)
+  }
+  .hero__left {
+    padding-left: clamp(.0000000625rem ,-1.4049585987rem + 7.0247933058vw ,5.3125rem)
+  }
+  .hero__text {
+    margin-bottom: clamp(1.875rem ,1.5444214876rem + 1.652892562vw ,3.125rem)
+  }
+  .get__left h2 {
+    font-size: clamp(2.5rem ,2.3347107438rem + .826446281vw ,3.125rem)
+  }
+  .get__left h2 {
+    margin-bottom: clamp(1.25rem ,1.0020661157rem + 1.2396694215vw ,2.1875rem)
+  }
+  .get__center h3 {
+    font-size: clamp(1.25rem ,1.0847107438rem + .826446281vw ,1.875rem)
+  }
+  .get__right h3 {
+    font-size: clamp(1.25rem ,1.0847107438rem + .826446281vw ,1.875rem)
+  }
+  .expert__content h3 {
+    font-size: clamp(1.25rem ,1.0847107438rem + .826446281vw ,1.875rem)
+  }
+  .cases__container {
+    padding-bottom: clamp(2.1875rem ,1.6916322314rem + 2.479338843vw ,4.0625rem)
+  }
+  .cases__top h3 {
+    font-size: clamp(1.25rem ,1.0847107438rem + .826446281vw ,1.875rem)
+  }
+  .cases__slider {
+    margin-bottom: clamp(2.5rem ,1.8388429752rem + 3.305785124vw ,5rem)
+  }
+  .cases__content {
+    gap: clamp(1.875rem ,.0568181818rem + 9.0909090909vw ,8.75rem)
+  }
+  .about {
+    margin-bottom: clamp(1.875rem ,-.5216942149rem + 11.9834710744vw ,10.9375rem)
+  }
+  .about__top {
+    margin-bottom: clamp(1.25rem ,.7541322314rem + 2.479338843vw ,3.125rem)
+  }
+  .about__top h3 {
+    font-size: clamp(1.25rem ,1.0847107438rem + .826446281vw ,1.875rem)
+  }
+  .about__items {
+    -webkit-column-gap: clamp(1.25rem ,.5888429752rem + 3.305785124vw ,3.75rem);
+    -moz-column-gap: clamp(1.25rem ,.5888429752rem + 3.305785124vw ,3.75rem);
+    column-gap: clamp(1.25rem ,.5888429752rem + 3.305785124vw ,3.75rem)
+  }
+  .about__items {
+    row-gap: clamp(1.25rem ,.7541322314rem + 2.479338843vw ,3.125rem)
+  }
+  .about__item {
+    gap: clamp(.9375rem ,.6895661157rem + 1.2396694215vw ,1.875rem)
+  }
+  .about__item span {
+    font-size: clamp(2.25rem ,1.2582644628rem + 4.958677686vw ,6rem)
+  }
+  .about__number {
+    font-size: clamp(2.25rem ,1.3574380165rem + 4.4628099174vw ,5.625rem)
+  }
+  .call {
+    margin-bottom: clamp(1.875rem ,1.048553719rem + 4.132231405vw ,5rem)
+  }
+  .call__box {
+    padding-top: clamp(2.5rem ,1.3429752066rem + 5.7851239669vw ,6.875rem)
+  }
+  .call__box {
+    padding-bottom: clamp(2.5rem ,1.3429752066rem + 5.7851239669vw ,6.875rem)
+  }
+  .call__box {
+    padding-left: clamp(1.25rem ,-.1549586777rem + 7.0247933884vw ,6.5625rem)
+  }
+  .call__box {
+    padding-right: clamp(1.25rem ,-.1549586777rem + 7.0247933884vw ,6.5625rem)
+  }
+  .call__box h4 {
+    font-size: clamp(1.5rem ,1.0702479339rem + 2.1487603306vw ,3.125rem)
+  }
+  .call__block {
+    gap: clamp(1.25rem ,.7541322314rem + 2.479338843vw ,3.125rem)
+  }
+  .call ._icon-tg {
+    font-size: clamp(.75rem ,.6838842975rem + .3305785124vw ,1rem)
+  }
+  .call ._icon-tg::before {
+    font-size: clamp(.875rem ,.7758264463rem + .4958677686vw ,1.25rem)
   }
   .success__container h2 {
     font-size: clamp(1.75rem ,1.7169421488rem + .1652892562vw ,1.875rem)
